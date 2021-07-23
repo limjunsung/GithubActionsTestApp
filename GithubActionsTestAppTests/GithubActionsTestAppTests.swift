@@ -15,6 +15,6 @@ class GithubActionsTestAppTests: XCTestCase {
     }
     
     func testFalse() {
-        XCTAssertTrue(true)
+        XCTAssertTrue(false)
     }
 }
