@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: xcodebuild build -project GithubActionsTestApp.xcodeproj -scheme GithubActionsTestApp
+      run: xcodebuild build -project GithubActionsTestApp.xcodeproj -scheme GithubActionsTestApp -allowProvisioningUpdates
 #    - name: Run tests
 #      run: swift test -v
