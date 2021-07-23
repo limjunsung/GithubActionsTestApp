@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: xcodebuild build -project GithubActionsTestApp.xcodeproj -scheme GithubActionsTestApp -allowProvisioningUpdates
+    - name: Run tests
+      run: xcodebuild test -project GithubActionsTestApp.xcodeproj -scheme GithubActionsTestApp
 #    - name: Run tests
 #      run: swift test -v
